@@ -4,48 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp</title>
+    <title>Chats|WhatsApp</title>
     <!-- tailwindcss -->
     <link rel="stylesheet" href="./assets/css/output.css">
 </head>
 
-<body class="bg-green-300 p-10">
-    <div class="flex justify-center">
-    <div><h1 class="text-center font-semibold mb-5">WhatsApp UI</h1></div>
-    <div><a href="https://github.com/yrd369/WhatsApp-UI-tailwind"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32"><path fill="currentColor" fill-rule="evenodd" d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z"/></svg></a></div>
-    </div>
+<body>
+    
     <section class="bg-white max-w-md mx-auto">
         <!-- top -->
-        <div class="text-white bg-[#008069] px-3 py-5 flex justify-between items-center">
-            <h4>WhatsApp</h4>
-            <div class="flex">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+        <div class="text-white bg-[#008069] px-3 py-4 flex justify-between items-center">
+            <h4 class="font-semibold">WhatsApp</h4>
+            <div class="flex items-center justify-between">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256" class="mr-3"><path fill="currentColor" d="M208 56h-27.72l-13.63-20.44A8 8 0 0 0 160 32H96a8 8 0 0 0-6.65 3.56L75.71 56H48a24 24 0 0 0-24 24v112a24 24 0 0 0 24 24h160a24 24 0 0 0 24-24V80a24 24 0 0 0-24-24Zm8 136a8 8 0 0 1-8 8H48a8 8 0 0 1-8-8V80a8 8 0 0 1 8-8h32a8 8 0 0 0 6.66-3.56L100.28 48h55.43l13.63 20.44A8 8 0 0 0 176 72h32a8 8 0 0 1 8 8ZM128 88a44 44 0 1 0 44 44a44.05 44.05 0 0 0-44-44Zm0 72a28 28 0 1 1 28-28a28 28 0 0 1-28 28Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mr-3">
                     <path fill="currentColor"
                         d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5l-1.5 1.5l-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16A6.5 6.5 0 0 1 3 9.5A6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14S14 12 14 9.5S12 5 9.5 5Z" />
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m0 7a1 1 0 1 0 2 0a1 1 0 1 0-2 0m0-14a1 1 0 1 0 2 0a1 1 0 1 0-2 0" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m0 7a1 1 0 1 0 2 0a1 1 0 1 0-2 0m0-14a1 1 0 1 0 2 0a1 1 0 1 0-2 0"/></svg>
             </div>
         </div>
         <!-- tab -->
-        <ul class="text-white bg-[#008069] flex items-center justify-between px-3 py-2 space-x-4">
+        <ul class="text-white bg-[#008069] flex items-center justify-between px-3 py-3 space-x-4">
             <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6">
-                    <path fill="currentColor"
-                        d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path fill="gray" d="M64.12 147.8a4 4 0 0 1-4 4.2H16a8 8 0 0 1-7.8-6.17a8.35 8.35 0 0 1 1.62-6.93A67.79 67.79 0 0 1 37 117.51a40 40 0 1 1 66.46-35.8a3.94 3.94 0 0 1-2.27 4.18A64.08 64.08 0 0 0 64 144c0 1.28 0 2.54.12 3.8Zm182-8.91A67.76 67.76 0 0 0 219 117.51a40 40 0 1 0-66.46-35.8a3.94 3.94 0 0 0 2.27 4.18A64.08 64.08 0 0 1 192 144c0 1.28 0 2.54-.12 3.8a4 4 0 0 0 4 4.2H240a8 8 0 0 0 7.8-6.17a8.33 8.33 0 0 0-1.63-6.94Zm-89 43.18a48 48 0 1 0-58.37 0A72.13 72.13 0 0 0 65.07 212A8 8 0 0 0 72 224h112a8 8 0 0 0 6.93-12a72.15 72.15 0 0 0-33.74-29.93Z"/></svg>
             </li>
             <li class="flex flex-1 justify-between items-center">
-                <div class="font-medium text-sm flex items-center relative"><span class="ml-2">CHATS</span> <span
-                        class="bg-white rounded-full text-[#008069] p-0.5 w-5 h-5 ml-2 flex justify-center items-center text-xs font-semibold">10</span>
+                <div class="font-medium text-sm flex items-center relative"><a href="./index.html"><span class="ml-2">Chats</span></a>
+                        <span class="bg-white rounded-full text-[#008069] p-0.5 w-5 h-5 ml-2 flex justify-center items-center text-xs font-semibold">10</span>
                     <div class="w-20 h-1 bg-white absolute top-8"></div>
                 </div>
-                <div class="font-medium text-sm flex items-center "><span class="ml-2">STATUS</span>
+                <div class="font-medium text-sm flex items-center "><a href="./status.html"><span class="ml-2">Updates</span></a>
                 </div>
-                <div class="font-medium text-sm flex items-center mr-3"><span class="ml-2">CALLS</span>
+                <div class="font-medium text-sm flex items-center mr-3"><span class="ml-2">Calls</span>
                 </div>
             </li>
         </ul>
@@ -53,8 +44,9 @@
         <div class="bg-white">
             <div class="flex items-center space-x-4 px-3 py-4 hover:bg-gray-100 hover:cursor-pointer">
                 <div>
-                    <img src="https://ui-avatars.com/api/?name=Ram&background=random&color=fff" alt="ram" class="rounded-full">
-                </div>
+                    <img src="https://ui-avatars.com/api/?name=Ram&background=random&color=fff" alt="ram"
+                        class="rounded-full">
+                </div>  
                 <div class="flex-1">
                     <h4 class="font-semibold">Ram</h4>
                     <p class="text-gray-600 text-sm">How are you?</p>
@@ -65,9 +57,10 @@
                 </div>
             </div>
 
-            <div class= "flex items-center space-x-4  px-3 py-4 hover:bg-gray-100 hover:cursor-pointer">
+            <div class="flex items-center space-x-4  px-3 py-4 hover:bg-gray-100 hover:cursor-pointer">
                 <div>
-                    <img src="https://ui-avatars.com/api/?name=shree&background=random&color=fff" alt="shree" class="rounded-full">
+                    <img src="https://ui-avatars.com/api/?name=shree&background=random&color=fff" alt="shree"
+                        class="rounded-full">
                 </div>
                 <div class="flex-1">
                     <h4 class="font-semibold">Shree</h4>
@@ -81,7 +74,8 @@
 
             <div class="flex items-center space-x-4  px-3 py-4 hover:bg-gray-100 hover:cursor-pointer">
                 <div>
-                    <img src="https://ui-avatars.com/api/?name=raghav&background=random&color=fff" alt="raghav" class="rounded-full">
+                    <img src="https://ui-avatars.com/api/?name=raghav&background=random&color=fff" alt="raghav"
+                        class="rounded-full">
                 </div>
                 <div class="flex-1">
                     <h4 class="font-semibold">Raghav</h4>
